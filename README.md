@@ -133,3 +133,7 @@ The repo includes [Playwright's test agents](https://playwright.dev/docs/test-ag
 
 - automationexercise.com is a shared public site, so occasional slowness or failures can come from the site itself. Worker counts are kept modest (4 locally, 2 on CI) to go easy on it.
 - Each full run creates and deletes a handful of accounts on the site.
+
+## License
+
+[MIT](LICENSE)

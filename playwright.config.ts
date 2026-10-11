@@ -5,7 +5,7 @@ import { currentsReporter } from '@currents/playwright';
 import dotenv from 'dotenv';
 
 /* Load secrets (e.g. CURRENTS_RECORD_KEY) from .env (see .env.example). */
-dotenv.config();
+dotenv.config({ quiet: true });
 
 /* Currents is optional: it only reports when both values come from the environment,
    so the project ID stays out of the code and runs without them still pass. */
